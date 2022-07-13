@@ -3,7 +3,7 @@ import StripeCheckout from "react-stripe-checkout";
 import axios from "axios";
 import { cartContext } from "../Global/cartContext";
 
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 toast.configure();
 const Cart = (props) => {
